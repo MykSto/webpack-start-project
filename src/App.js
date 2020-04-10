@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link, Route } from 'react-router-dom';
-import { asyncComponent } from './hoc/asyncComponent';
+import asyncComponent from './hoc/asyncComponent';
 
 import Users from './containers/Users';
 // import Pizza from './containers/Pizza';
@@ -26,3 +26,5 @@ class App extends Component {
         );
     }
 }
+
+export default App;
